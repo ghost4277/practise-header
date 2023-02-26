@@ -8,30 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header container">
-        <img src="assets/logo.png" alt="" class="header__logo">
-        <div class="search__contaienr">
-            <input placeholder="Быстрый поиск" class="search__line" type="search">
-            <button class="search__btn"><img src="assets/search.png" alt=""></button>
+    <header class="header ">
+        <div class="header__location">
+            <div class="header__location-content container">
+                <ul class="location__list">
+                    <img src="assets/location.png" alt="">
+                    <a href="#" class="location__link location__link--first">Махачкала</a>
+                    <a href="#" class="location__link">Магазины</a>
+                    <a href="#" class="location__link location__link--after">Покупателям</a>
+                    <a href="#" class="location__link location__link--after">Юридическим лицам</a>
+                </ul>
+               <a class="location__link location__link--tel" href="tel:+8-800-999-99-99">8-800-999-99-99 (c 03:00 до 22:00)</a>
+            </div>
         </div>
-        <nav class="header__nav">
-            <div class="header__saved">
-                <img src="assets/heart.png" alt="">
-                <span>Избранное</span>
-                <span class="saved__counter">3</span>
+        <div class="header-search container">
+            <img src="assets/logo.png" alt="" class="header__logo">
+            <div class="search__contaienr">
+                <input placeholder="Быстрый поиск" class="search__line" type="search">
+                <button class="search__btn"><img src="assets/search.png" alt=""></button>
             </div>
-            <div class="header__compare">
-                <img src="assets/compare.png" alt="">
-                <span>Сравнить</span>
-    
-            </div>
-            <div class="header__basket">
-                <img src="assets/basket.png" alt="">
-                <span>Избранное</span>
-                <span class="basket__counter">3</span>
-            </div>
-        </nav>
-        
+            <nav class="header__nav">
+                <div class="header__saved">
+                    <img src="assets/heart.png" alt="">
+                    <span>Избранное</span>
+                    <span class="saved__counter">3</span>
+                </div>
+                <div class="header__compare">
+                    <img src="assets/compare.png" alt="">
+                    <span>Сравнить</span>
+                </div>
+                <div class="header__basket">
+                    <img src="assets/basket.png" alt="">
+                    <span>Избранное</span>
+                    <span class="basket__counter">3</span>
+                </div>
+            </nav>
+        </div>
+        <div class="header-categories">
+
+        </div>
     </header>
 </body>
 </html>

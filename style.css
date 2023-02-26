@@ -8,18 +8,50 @@
     max-width: 1240px;
     margin: 0 auto;
 }
-
-.header {
+.header__location{
+    width: 100%;
+    background-color: #F8F8F8;
+    
+}
+.header__location-content {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.location__link--first{
+    margin-right: 50px;
+}
+.location__link{
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.7;
+    font-size: 14px;
+    transition: 0.4s;
+    margin-left: 10px;
+    
+}
+.location__link:hover{
+    transition: 0.4s;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.location__link--after::after{
+content: url("assets/arrow.png");
+position: relative;
+top: -3px;
+left: 10px;
+}
+.location__link--tel{
+    opacity: 0.5;
+}
+.header-search {
     min-height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
-
-.header div {
-    
-}
-
 .search__contaienr {
     width: 30%;
     display: flex;
